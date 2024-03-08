@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learner Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .dashboard-container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .logout-btn {
+            background-color: inherit;
+            color: blue;
+            border: none;
+            padding: 10px 20px;
+            text-decoration: underline;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-left: auto;
+        }
+        .logout-btn:hover {
+            background-color: #0056b3;
+        }
+        .submit-btn {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-right: auto;
+        }
+        .submit-btn:hover {
+            background-color: #218838;
+        }
+        .block {
+            margin-bottom: 20px;
+        }
+        .block-header {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .tiles {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .tile {
+            width: calc(25% - 10px);
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="dashboard-container">
+    <div class="header">
+        <h1>Learner Dashboard</h1>
+        <div class="header-buttons">
+        <button class="submit-btn">Submit New Assignment</button>
+        <button class="logout-btn">Logout</button>
+    </div>
+</div>
+    <div class="block">
+        <div class="block-header">Needs Rework</div>
+        <div class="tiles">
+            <div class="tile">
+                Tile 1
+            </div>
+            <div class="tile">
+                Tile 2
+            </div>
+            <div class="tile">
+                Tile 3
+            </div>
+            <div class="tile">
+                Tile 4
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="block-header">Complete</div>
+        <div class="tiles">
+            <div class="tile">
+                Tile 1
+            </div>
+            <div class="tile">
+                Tile 2
+            </div>
+            <div class="tile">
+                Tile 3
+            </div>
+            <div class="tile">
+                Tile 4
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="block-header">In Review</div>
+        <div class="tiles">
+            <div class="tile">
+                Tile 1
+            </div>
+            <div class="tile">
+                Tile 2
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+</html>
